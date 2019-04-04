@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@mipmap/ic_latest"
+            android:title="Latest"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@mipmap/ic_category"
+            android:title="Category"
+            tools:ignore="HardcodedText" />
+        <item
+
+            android:id="@+id/nav_gifs"
+            android:icon="@mipmap/ic_gifs"
+            android:title="GIFs"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@mipmap/ic_my_favorites"
+            android:title="My Favorites"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@mipmap/ic_rate_app"
+            android:title="Rate App"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_more"
+            android:icon="@mipmap/ic_more_app"
+            android:title="More App"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_about"
+            android:title="About Us"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_setting"
+            android:title="Setting"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@mipmap/ic_privacy"
+            android:title="Privacy Police"
+            tools:ignore="HardcodedText" />
+    </group>
+
+
+</menu>
