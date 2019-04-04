@@ -55,8 +55,6 @@ public class AboutActivity extends AppCompatActivity {
         toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setSubtitleTextColor(Color.WHITE);
 
-
-
         tvAppName = (TextView) findViewById(R.id.tvAppName);
         tvtextVersion = (TextView) findViewById(R.id.tvtextVersion);
         tvVersion = (TextView) findViewById(R.id.tvVersion);
