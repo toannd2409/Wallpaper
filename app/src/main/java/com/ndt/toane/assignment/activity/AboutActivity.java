@@ -66,8 +66,6 @@ public class AboutActivity extends AppCompatActivity {
         tvDecription = (TextView) findViewById(R.id.tvDecription);
         apiEndpoint = ApiClient.getClient().create(ApiEndpoint.class);
 
-
-
     }
 
     @Override
