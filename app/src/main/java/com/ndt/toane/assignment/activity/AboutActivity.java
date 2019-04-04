@@ -45,23 +45,22 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("About Us");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
         toolbar.setTitleTextColor(Color.WHITE);
         toolbar.setSubtitleTextColor(Color.WHITE);
 
-        tvAppName = (TextView) findViewById(R.id.tvAppName);
-        tvtextVersion = (TextView) findViewById(R.id.tvtextVersion);
-        tvVersion = (TextView) findViewById(R.id.tvVersion);
-        tvAuthor = (TextView) findViewById(R.id.tvAuthor);
-        tvEmail = (TextView) findViewById(R.id.tvEmail);
-        tvContact = (TextView) findViewById(R.id.tvContact);
-        tvDecription = (TextView) findViewById(R.id.tvDecription);
+        tvAppName = findViewById(R.id.tvAppName);
+        tvtextVersion = findViewById(R.id.tvtextVersion);
+        tvVersion = findViewById(R.id.tvVersion);
+        tvAuthor = findViewById(R.id.tvAuthor);
+        tvEmail = findViewById(R.id.tvEmail);
+        tvContact = findViewById(R.id.tvContact);
+        tvDecription = findViewById(R.id.tvDecription);
         apiEndpoint = ApiClient.getClient().create(ApiEndpoint.class);
 
     }
